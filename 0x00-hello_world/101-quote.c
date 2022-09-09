@@ -2,8 +2,10 @@
 #include <unistd.h>
 
 /**
- *main-program entry point. 
- *Return: 1 on success.
+ * main-program entry point "and that piece of art is useful"
+ * - Dora Korpar, 2015-10-19",
+ * following by a new line, to the sytandard error.
+ * Return: Always 0 (Success)
  *
  */
 
