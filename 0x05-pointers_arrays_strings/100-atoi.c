@@ -25,7 +25,6 @@ if (s[i] == '-')
 if (s[i] >= '0' && s[i] <= '9')
 {
 digit = s[i] - '0';
-  
 if (d % 2)
 n = n * 10 + digit;
 f = 1;
@@ -37,6 +36,5 @@ i++;
 }
 if (f == 0)
 return (0);
-
 return (n);
 }
