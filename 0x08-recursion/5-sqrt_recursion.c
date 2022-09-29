@@ -25,7 +25,7 @@ int sqrt_check(int g, int c)
  * @n: integer to find sqrt of
  * 
  * Return: Natural square root or -1
-*/
+ */
 
 int _sqrt_recursion(int n)
 {
