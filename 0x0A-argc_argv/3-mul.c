@@ -15,19 +15,19 @@ int main(int argc, char *argv[])
 {
 if (argc == 3)
 {
-	print_number(multiply_two_nums(_atoi(argv[1]), _atoi(argv[2])));
-	_putchar('\n');
-	return (0);
+print_number(multiply_two_nums(_atoi(argv[1]), _atoi(argv[2])));
+_putchar('\n');
+return (0);
 }
 else
 {
-	_putchar('E');
-	_putchar('r');
-	_putchar('r');
-	_putchar('o');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
+_putchar('E');
+_putchar('r');
+_putchar('r');
+_putchar('o');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
 }
 
