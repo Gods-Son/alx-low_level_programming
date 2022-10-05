@@ -29,7 +29,7 @@ free(alloc_mem);
 return ('\0');
 }
 
-for (j = 0; j < width; j++)alloc_mem[i][j] = 0;
+for (j = 0; j < width; j++)
 alloc_mem[i][j] = 0;
 }
 return (alloc_mem);
