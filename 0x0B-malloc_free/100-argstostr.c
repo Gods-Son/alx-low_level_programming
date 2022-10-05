@@ -24,6 +24,7 @@ for (i = 0; i < ac; i++)
 {
 for (j = 0; av[i][j] != '\0'; j++)
 	t_count++;
+t_count++;
 }
 result = malloc(sizeof(char) * t_count + 1);
 if (result == NULL)
