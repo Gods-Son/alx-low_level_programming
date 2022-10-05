@@ -24,7 +24,6 @@ while (*(s1 + s1_length) != '\0')
 s1_length++;
 while (*(s2 + s2_length) != '\0')
 s2_length++;
-
 alloc_mem = malloc(1 + (s1_length * sizeof(*s1)) + (s2_length * sizeof(*s2)));
 if (alloc_mem == NULL)
 return ('\0');
