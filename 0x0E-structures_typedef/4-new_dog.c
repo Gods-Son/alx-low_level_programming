@@ -8,7 +8,6 @@ dog_t *new_dog(char *name, float age, char *owner);
 /**
  * _strlen - Finds the length of a string.
  * @str: The string to be measured.
- *
  * Return: The length of the string.
  */
 
@@ -73,5 +72,3 @@ doggo->age = age;
 doggo->owner = _strcopy(doggo->owner, owner);
 return (doggo);
 }
-
-
