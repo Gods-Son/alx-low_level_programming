@@ -2,16 +2,17 @@
 #define OP_FUNCTIONS_
 
 /**
- * * struct op - Struct op
+ * struct op - Struct op
  * 
- * * @op: The operator
+ * @op: The operator
  * 
- * @f: Thefunction associated
+ * @f: The function associated
  */
+
 typedef struct op
 {
-char *op;
-int (*f)(int a, int b);
+	char *op;
+	int (*f)(int a, int b);
 }op_t;
 
 int op_add(int a, int b);
